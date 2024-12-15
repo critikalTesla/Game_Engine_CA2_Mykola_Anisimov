@@ -37,7 +37,7 @@ function initSpaceInvaders() {
 
     // Generate enemies
     function createEnemies() {
-        const yPosition = 70; // All enemies spawn at the same row, no offset
+        const yPosition = 110; // All enemies spawn at the same row
 
         for (let col = 0; col < enemyCols; col++) {
             enemies.push({
