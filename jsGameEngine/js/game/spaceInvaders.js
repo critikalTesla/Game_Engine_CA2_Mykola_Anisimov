@@ -171,15 +171,7 @@ function initSpaceInvaders() {
                 specialEnemy.cooldown = 100; // Reload cooldown
             }
 
-            // Check for collision with player
-            if (
-                player.x < specialEnemy.x + specialEnemy.width &&
-                player.x + player.width > specialEnemy.x &&
-                player.y < specialEnemy.y + specialEnemy.height &&
-                player.y + player.height > specialEnemy.y
-            ) {
-                player.alive = false; // Player dies on collision
-            }
+
         }
 
         // Draw player bullets
