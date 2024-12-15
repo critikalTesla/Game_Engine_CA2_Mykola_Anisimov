@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to an external CSS file -->
-    <title>2D Game Engine</title>
+    <title>Space Invaders</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        canvas {
+            background-color: #ffffff; /* Синий фон */
+        }
+    </style>
 </head>
 <body>
-    <canvas id="gameCanvas" width="800" height="600"></canvas> <!-- Canvas element with the ID "gameCanvas" -->
-    <script type="module" src="js/start.js"></script> <!-- Script tag to include an external JavaScript file -->
-    <script src="js/game/spaceInvaders.js"></script>
-
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<script src="js/game/spaceInvaders.js"></script>
 </body>
 </html>
